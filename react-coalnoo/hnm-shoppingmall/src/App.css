@@ -1,0 +1,72 @@
+.login-area {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px;
+}
+
+.login-area div {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.nav-section {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu-list li {
+  padding: 10px;
+}
+
+.menu-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-area {
+  float: right;
+  position: absolute;
+  right: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.search-area input {
+  border-style: none;
+  margin: 5px;
+}
+
+.productcard-area {
+  margin: 10px;
+}
+
+.img {
+  width: 320px;
+}
+.productcard-area:hover {
+  transform: scale(1.03);
+  transition: 500ms;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-top: 80px;
+}
+
+.detail-page {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.detail-page div {
+  margin: 10px;
+}
